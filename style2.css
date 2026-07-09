@@ -370,3 +370,35 @@ footer{
     font-size: 14px;
     color: #cbd5e1;
 }
+
+/* responsive */
+@media(max-width:768px){
+
+    header{
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .profile-container{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-image img{
+        width: 200px;
+        height: 200px;
+    }
+
+    .section-title h2{
+        font-size: 28px;
+    }
+
+    section{
+        padding: 60px 5%;
+    }
+}
