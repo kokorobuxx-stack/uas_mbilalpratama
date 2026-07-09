@@ -91,3 +91,88 @@ section{
 .about-text p{
     margin-bottom: 10px;
 }
+
+/* profile */
+.profile-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.profile-image img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+
+    border-radius: 50%;
+
+    border: 5px solid white;
+
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.profile-text{
+    max-width: 600px;
+}
+
+.profile-text p{
+    margin-bottom: 15px;
+}
+
+.profile-text span{
+    color: #2563eb;
+    font-weight: bold;
+}
+
+/* =========================
+   SKILLS
+========================= */
+.skills{
+    max-width: 700px;
+    margin: 50px auto;
+}
+
+.skills h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+}
+
+.skill{
+    margin-bottom: 20px;
+}
+
+.skill-info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.progress-bar{
+    background: #ddd;
+    height: 15px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.progress{
+    height: 100%;
+    border-radius: 50px;
+}
+
+.html{
+    width: 70%;
+    background: #ef4444;
+}
+
+.css{
+    width: 50%;
+    background: #3b82f6;
+}
+
+.js{
+    width: 20%;
+    background: #f59e0b;
+}
